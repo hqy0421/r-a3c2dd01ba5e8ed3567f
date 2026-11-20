@@ -1,0 +1,108 @@
+{
+  "leaves": {
+    "floor_a1": 223.2783386326268,
+    "floor_a2": 152.85344935242378,
+    "floor_b1": 407.34205755248433
+  },
+  "nodes": {
+    "total": 783.4738455375349,
+    "building_a": 376.13178798505055,
+    "floor_a1": 223.2783386326268,
+    "floor_a2": 152.85344935242378,
+    "building_b": 407.34205755248433,
+    "floor_b1": 407.34205755248433
+  },
+  "base": {
+    "total": 768.0729090798623,
+    "building_a": 394.90271340504233,
+    "floor_a1": 231.93929716566106,
+    "floor_a2": 161.5144078854579,
+    "building_b": 422.74299401015713,
+    "floor_b1": 422.74299401015713
+  },
+  "weights": {
+    "total": 3.0,
+    "building_a": 2.0,
+    "floor_a1": 1.0,
+    "floor_a2": 1.0,
+    "building_b": 2.0,
+    "floor_b1": 1.0
+  },
+  "per_node": [
+    {
+      "node": "total",
+      "weight": 3.0,
+      "base": 768.0729090798623,
+      "reconciled": 783.4738455375349,
+      "delta": 15.400936457672628,
+      "weighted_sq_change": 711.5665313198098,
+      "cost_share": 0.3123847804577423
+    },
+    {
+      "node": "building_a",
+      "weight": 2.0,
+      "base": 394.90271340504233,
+      "reconciled": 376.13178798505055,
+      "delta": -18.770925419991784,
+      "weighted_sq_change": 704.6952822457874,
+      "cost_share": 0.3093682338117419
+    },
+    {
+      "node": "floor_a1",
+      "weight": 1.0,
+      "base": 231.93929716566106,
+      "reconciled": 223.2783386326268,
+      "delta": -8.660958533034261,
+      "weighted_sq_change": 75.01220271093898,
+      "cost_share": 0.0329311026363839
+    },
+    {
+      "node": "floor_a2",
+      "weight": 1.0,
+      "base": 161.5144078854579,
+      "reconciled": 152.85344935242378,
+      "delta": -8.660958533034119,
+      "weighted_sq_change": 75.01220271093652,
+      "cost_share": 0.032931102636382825
+    },
+    {
+      "node": "building_b",
+      "weight": 2.0,
+      "base": 422.74299401015713,
+      "reconciled": 407.34205755248433,
+      "delta": -15.400936457672799,
+      "weighted_sq_change": 474.37768754655036,
+      "cost_share": 0.20825652030516617
+    },
+    {
+      "node": "floor_b1",
+      "weight": 1.0,
+      "base": 422.74299401015713,
+      "reconciled": 407.34205755248433,
+      "delta": -15.400936457672799,
+      "weighted_sq_change": 237.18884377327518,
+      "cost_share": 0.10412826015258309
+    }
+  ],
+  "total_cost": 2277.852750307298,
+  "kkt": {
+    "stationarity_max_abs": 5.115907697472721e-13,
+    "dual_max_violation": 0.0,
+    "primal_min_leaf": 152.85344935242378
+  },
+  "clip_baseline": {
+    "leaves": {
+      "floor_a1": 231.93929716566106,
+      "floor_a2": 161.5144078854579,
+      "floor_b1": 422.74299401015713
+    },
+    "total_cost": 6951.896736945176
+  },
+  "coherence": {
+    "root": "total",
+    "root_value": 783.4738455375349,
+    "leaf_sum": 783.4738455375349,
+    "root_minus_leaf_sum": 0.0,
+    "max_parent_child_violation": 0.0
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "success": false,
+  "generated_at": "2026-11-20T06:55:27.614332+00:00",
+  "failures": [
+    {
+      "stage": "load",
+      "code": "missing_leaf",
+      "message": "declared leaf meters absent from data: ['floor_b1']"
+    }
+  ],
+  "windowing": null,
+  "nodes_with_model": [],
+  "reconciled": false,
+  "artifacts": [
+    "/workspace/hier_energy_output/missing_leaf_demo/report.md"
+  ]
+}
